@@ -115,6 +115,71 @@ export default function Home(props) {
               Create, Read, Update, Delete opreations unsing React js.
             </p>
           </Link>
+          <Link
+            href="/tictaetoe/app"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              Tic Tae Toe<span>-&gt;</span>
+            </h2>
+            <p>
+            How to build a Tic-Tac-Toe Game using React Hooks ?
+            </p>
+          </Link>
+          <Link
+            href="/area"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+            Maximum Rectangular Area in a Histogram<span>-&gt;</span>
+            </h2>
+            {/* <p>
+            How to build a Tic-Tac-Toe Game using React Hooks ?
+            </p> */}
+          </Link>
+          <Link
+            href="/merge"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+            Merge Without Extra Space<span>-&gt;</span>
+            </h2>
+            {/* <p>
+            How to build a Tic-Tac-Toe Game using React Hooks ?
+            </p> */}
+          </Link>
+          <Link
+            href="/longestcommonsubsequence"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+            Longest Common Subsequence<span>-&gt;</span>
+            </h2>
+            {/* <p>
+            How to build a Tic-Tac-Toe Game using React Hooks ?
+            </p> */}
+          </Link>
+          <Link
+            href="/hasZeroSumSubarray"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+            Subarray with 0 sum<span>-&gt;</span>
+            </h2>
+            {/* <p>
+            How to build a Tic-Tac-Toe Game using React Hooks ?
+            </p> */}
+          </Link>
         </div>
       </main>
     </>
